@@ -9,7 +9,7 @@ Enemy::Enemy(const CVector2D& p) :Base(eType_Enemy) {
 }
 void Enemy::Update() {
 	//敵を下に動かす
-	const int move_speed = 42;
+	const int move_speed = 32;
 	//カウントアップ
 	m_cnt++;
 	//60カウント(1秒)以上なら
